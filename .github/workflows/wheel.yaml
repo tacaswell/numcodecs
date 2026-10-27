@@ -35,7 +35,7 @@ jobs:
           submodules: true
           fetch-depth: 0  # required for version resolution for nightly wheels
 
-      - uses: pypa/cibuildwheel@v3.4.1
+      - uses: pypa/cibuildwheel@b9e566a2b284570af229f6c2a33673410d0389a3  # v4.3.4
 
       - uses: actions/upload-artifact@v7
         with:
